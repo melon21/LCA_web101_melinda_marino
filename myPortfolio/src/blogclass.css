@@ -1,0 +1,35 @@
+h1 {
+    width: 60%;
+    margin: 5% auto;
+    text-align: center;
+    color: #ff6961;
+}
+body{
+    background-color: lightpink;
+}
+main{
+    width: 60%;
+    margin: 5% auto;
+    background:#fcf4a3;
+}
+article {
+    margin: 1% auto;
+    border: solid gray 2px;
+    width: 60%;
+    background: white;
+}
+article > h3{
+    font-size: .5cm;
+    color: #ff6961;
+}
+article:hover{
+    background:lightskyblue;
+}
+article:hover >h3{
+    color: #3f3f3e;
+}
+footer{
+    margin: 5% auto;
+    color: #3f3f3e;
+    text-align: center;
+}
