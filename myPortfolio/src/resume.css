@@ -1,6 +1,16 @@
 header{
-    text-align: center
+background-color: lightgrey;
+text-align:center;}
+body {
+  text-align: center;
+    margin-left: 25px;
 }
-h1 title {
-    font-size: 
+p title{
+    font:bold;
+}
+p{ margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+text-align: center;
 }
