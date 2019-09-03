@@ -38,12 +38,10 @@ html {
     text-align: center;
   }
 }
-header{
-
 }
 body {
-  min-height: 100vh;
-  background-image: url(https://unsplash.com/photos/B43a-FPxYqU);
+
+  background-image: url(https://images.unsplash.com/photo-1566127444977-e09782d3f691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -56,15 +54,17 @@ main {
   border: 2px solid var(--blue-grey-200);
   border-radius: 8px;
 }
+.greeting{
+}
 .calender {
   text-align: center;
+
 }
 .month-indicator {
   color: var(--blue-grey-700);
   text-align: center;
   font-weight: 500;
 }
-
 
 .day-of-week,
 .date-grid {
@@ -118,22 +118,9 @@ Style
 .date-grid button.is-selected {
   background-color: var(--teal-100);
   color: var(--teal-900);
+
 }
-main .clock{
-  margin-top: 30px;
-    margin-bottom: 30px;
-    background-color: #080808;
-    border-radius: 5px;
-    padding: 60px 20px;
-    box-shadow: 1px 1px 5px rgba(255,255,255,.15), 0 15px 90px 30px rgba(0,0,0,.25);
-    display: flex;
-}
-  .clock-label{
-content: var(--timer-day);
-  content: var(--timer-hours);
-  content: var(--timer-minutes);
-  content: var(--timer-seconds);
-}
+
 
 
 
@@ -145,12 +132,12 @@ content: var(--timer-day);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 400px;
+  width: 300px;
 }
 .calculator-screen {
-  width: 100%;
-  font-size: 5rem;
-  height: 80px;
+  width: 50%;
+  font-size: 15px;
+  height: 25px;
   border: none;
   background-color: #252525;
   color: #fff;
@@ -202,27 +189,25 @@ button:hover {
 .calculator-keys {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
+  grid-gap: 5px;
   padding: 20px;
 }
 
 
-* {
-  box-sizing: border-box;
-}
+
 
 ul {
-  margin: 0;
-  padding: 0;
+  margin:0;
+  padding:0;
 }
 
 
 ul li {
   cursor: pointer;
   position: relative;
-  padding: 12px 8px 12px 40px;
+  padding: 12px 8px 12px 8px;
   background: #eee;
-  font-size: 18px;
+  font-size: 12px;
   transition: 0.2s;
 
  
@@ -276,7 +261,7 @@ ul li.checked::before {
 
 .header {
   background-color: #f44336;
-  padding: 30px 40px;
+  padding: 20px 10px;
   color: white;
   text-align: center;
 }
@@ -292,16 +277,16 @@ ul li.checked::before {
 input {
   margin: 0;
   border: none;
-  border-radius: 0;
+  border-radius: 20px;
   width: 75%;
-  padding: 10px;
+  padding: 4px;
   float: left;
   font-size: 16px;
 }
 
 
 .addBtn {
-  padding: 10px;
+  padding:2.5px;
   width: 25%;
   background: #d9d9d9;
   color: #555;
@@ -310,7 +295,7 @@ input {
   font-size: 16px;
   cursor: pointer;
   transition: 0.3s;
-  border-radius: 0;
+  border-radius: 20px;
 }
 
 .addBtn:hover {
