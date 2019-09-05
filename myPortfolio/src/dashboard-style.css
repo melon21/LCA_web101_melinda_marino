@@ -47,18 +47,26 @@ body {
 }
 
 main {
+  display: grid;
+  grid-template: 50% 50%;
+  grid-row: 20% 20% 20% 20%; 
+}
+.greeting{
+  font-size: 50px;
+}
+.calender {
+  grid-area: 1/1;
+  text-align: center;
   max-width: max-content;
   margin: 20px;
   padding: 1.5em;
   background-color: #fff;
   border: 2px solid var(--blue-grey-200);
   border-radius: 8px;
-}
-.greeting{
-}
-.calender {
-  text-align: center;
 
+background-image: url(https://images.unsplash.com/photo-1460411794035-42aac080490a?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+background-size: 160%;
+background-repeat: no-repeat;
 }
 .month-indicator {
   color: var(--blue-grey-700);
@@ -79,7 +87,7 @@ header
 
 .day-of-week > * {
   font-size: 0.7em;
-  color: var(--blue-grey-400);
+  color: black;
   font-weight: 500;
   letter-spacing: 0.1em;
   font-variant: small-caps;
@@ -89,6 +97,8 @@ header
 
 .date-grid {
   margin-top: 0.5em;
+  align-content: space-around;
+  justify-content: space-between;
 }
 
 
@@ -127,13 +137,9 @@ Style
 *{
   box-sizing: border-box;
 }
-body{
-  min-height: 100vh;
-  display:flex;
-  justify-content: center;
-  align-items: flex-start;
-}
+
 .container{
+  grid-area: 4/4;
   display:flex;
   flex-wrap: wrap;
   flex: 0 1 60%;
@@ -168,6 +174,9 @@ body{
   background: -webkit-linear-gradient(top,#d2d2d2,#ddd);
   font-size:2em;
 }
+.button button:hover{
+  color: pink;
+}
 .button:nth-child(4n+1){
   border-left: 1px solid black;
 }
@@ -183,9 +192,9 @@ body{
 }
 
 
-
-
-
+.header{
+  grid-area: 2/2;
+}
 
 ul {
   margin:0;
