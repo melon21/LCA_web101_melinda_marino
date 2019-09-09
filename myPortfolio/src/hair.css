@@ -14,50 +14,57 @@ header{
 }
 
 body{
-    background-image: 60px;
+    background-image: url(http://127.0.0.1:5500/src/img/walking.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
     margin: 0%;
     padding: 0%;
 }
 li{
-    width: 20px;
+    width: 250px;
 }
+
 #body > ul {
     margin: 0 auto;
     overflow: hidden;
     padding: 24px 0 0;
-    width: 960px;
+    width: 50px;
 }
 ul {
-    display: block;
+    display: flex;
     list-style-type: disc;
-    margin-block-start: 1em;
+    /*margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 40px;
+    padding-inline-start: 40px;*/
+}
+a{
+    padding: 20px;
 }
 #body > ul li {
-    display: block;
+    display: flex;
     float: left;
     margin: 0 10px 20px;
     padding: 0;
     width: 300px;
 }
+img{
 
-#body > ul li img{
- max-width: 30%;
+}
+#body > ul li{
+ max-width: 40%;
  height: 30%;
     
     border: 2px solid #1a1a1a;
-    display: block;
+    display: flex;
     margin: 0;
     padding: 0;
-    opacity: .8;
     transition: 0.5s ease-in-out;
 }
 #body > ul li a {
     color: #000;
-    display: block;
+    display: flex;
     font-family: poller_oneregular;
     font-size: 20px;
     font-weight: normal;
