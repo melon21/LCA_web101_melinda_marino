@@ -1,0 +1,72 @@
+html{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+header{
+    Font-size: 60px;
+    justify-content: center;
+    float: center;
+}
+.Header{
+    float: center;
+}
+
+body{
+    background-image: 60px;
+    margin: 0%;
+    padding: 0%;
+}
+li{
+    width: 20px;
+}
+#body > ul {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 24px 0 0;
+    width: 960px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+#body > ul li {
+    display: block;
+    float: left;
+    margin: 0 10px 20px;
+    padding: 0;
+    width: 300px;
+}
+
+#body > ul li img{
+ max-width: 30%;
+ height: 30%;
+    
+    border: 2px solid #1a1a1a;
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: .8;
+    transition: 0.5s ease-in-out;
+}
+#body > ul li a {
+    color: #000;
+    display: block;
+    font-family: poller_oneregular;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+h2 span{
+    float: left;
+}
