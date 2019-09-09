@@ -42,22 +42,20 @@ html {
 }
 #bg{
   background-size: cover;
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-	
-  /* Preserve aspet ratio */
   min-width: 100%;
   min-height: 100%;
 }
 
 body {
+  background-image: url(http://127.0.0.1:5500/src/img/france.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 h1{
   font-size: 50px;
+  font-family: 'Dancing Script', cursive;
 }
 main {
   display: grid;
@@ -192,7 +190,7 @@ Style
   border-left: 1px solid black;
 }
 .button:nth-child(4n),.button:last-child{
-  background: #f98110;
+  background: rgb(236, 88, 157);
   color: #fff;
 }
 .zero-btn{
@@ -240,7 +238,7 @@ ul li:hover {
 }
 
 ul li.checked {
-  background: #888;
+  background: pink;
   color: #fff;
   text-decoration: line-through;
 }
@@ -273,7 +271,7 @@ ul li.checked::before {
 
 
 .header {
-  background-color: #f44336;
+  background-color: darkgray;
   padding: 20px 10px;
   color: white;
   text-align: center;
