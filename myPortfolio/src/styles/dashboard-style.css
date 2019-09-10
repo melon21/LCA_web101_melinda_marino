@@ -39,6 +39,7 @@ html {
   }
 }
 
+
 }
 #bg{
   background-size: cover;
@@ -183,8 +184,8 @@ Style
   background: -webkit-linear-gradient(top,#d2d2d2,#ddd);
   font-size:2em;
 }
-.button button:hover{
-  color: pink;
+.button:hover{
+  color: rgb(236, 88, 157);
 }
 .button:nth-child(4n+1){
   border-left: 1px solid black;
@@ -192,6 +193,9 @@ Style
 .button:nth-child(4n),.button:last-child{
   background: rgb(236, 88, 157);
   color: #fff;
+}
+.button:nth-child(4n):hover{
+  color: #000;
 }
 .zero-btn{
   flex-grow: 2;
@@ -235,6 +239,7 @@ ul li:nth-child(odd) {
 
 ul li:hover {
   background: #ddd;
+  padding: 20px;
 }
 
 ul li.checked {
