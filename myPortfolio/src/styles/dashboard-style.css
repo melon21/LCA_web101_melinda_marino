@@ -197,6 +197,9 @@ Style
 .button:nth-child(4n):hover{
   color: #000;
 }
+.button:last-child:hover{
+  color: #000;
+}
 .zero-btn{
   flex-grow: 2;
 }
