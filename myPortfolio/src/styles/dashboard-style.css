@@ -47,7 +47,7 @@ html {
 }
 
 body {
-  background-image: url(http://127.0.0.1:5500/src/img/france.jpg);
+  background-image: url(https://images.unsplash.com/photo-1566127444977-e09782d3f691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80);
   background-size: cover;
   background-repeat: no-repeat;
   background-size: 100%;
