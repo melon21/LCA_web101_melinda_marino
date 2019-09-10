@@ -15,7 +15,7 @@ header{
 
 body{
     background-image: url(https://images.unsplash.com/photo-1436262513933-a0b06755c784?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     margin: 0%;
     padding: 0%;
@@ -25,19 +25,17 @@ li{
 }
 
 #body > ul {
+    display flex;
+    float: left;
     margin: 0 auto;
-    overflow: hidden;
-    padding: 24px 0 0;
-    width: 50px;
+    padding: 24px 20px 20px;
+    width: 400px;
+
+
 }
 ul {
     display: flex;
     list-style-type: disc;
-    /*margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;*/
 }
 a{
     padding: 20px;
@@ -49,13 +47,10 @@ a{
     padding: 0;
     width: 300px;
 }
-img{
 
-}
 #body > ul li{
  max-width: 40%;
  height: 30%;
-    
     border: 2px solid #1a1a1a;
     display: flex;
     margin: 0;
@@ -76,4 +71,8 @@ img{
 }
 h2 span{
     float: left;
+}
+img{
+    height: 200px;
+    width: 300px;
 }
