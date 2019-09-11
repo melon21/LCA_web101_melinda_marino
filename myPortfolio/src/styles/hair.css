@@ -6,15 +6,14 @@ html{
 
 header{
     Font-size: 60px;
-    justify-content: center;
-    float: center;
+text-align: center;
 }
 .Header{
     float: center;
 }
 
 body{
-    background-image: url(https://images.unsplash.com/photo-1436262513933-a0b06755c784?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80);
+    background-image: url(../img/tri.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0%;
@@ -29,38 +28,24 @@ li{
     float: left;
     margin: 0 auto;
     padding: 24px 20px 20px;
-    width: 400px;
-
-
+    width: 750px;
 }
 ul {
     display: flex;
     list-style-type: disc;
 }
-a{
-    padding: 20px;
-}
+
 #body > ul li {
     display: flex;
-    float: left;
+    float: center;
     margin: 0 10px 20px;
     padding: 0;
     width: 300px;
-}
-
-#body > ul li{
- max-width: 40%;
- height: 30%;
     border: 2px solid #1a1a1a;
-    display: flex;
-    margin: 0;
-    padding: 0;
     transition: 0.5s ease-in-out;
 }
-#body > ul li a {
-    color: #000;
+#body > ul li span{
     display: flex;
-    font-family: poller_oneregular;
     font-size: 20px;
     font-weight: normal;
     margin: 0;
@@ -68,9 +53,6 @@ a{
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-}
-h2 span{
-    float: left;
 }
 img{
     height: 200px;
