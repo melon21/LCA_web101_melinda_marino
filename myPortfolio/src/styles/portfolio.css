@@ -1,0 +1,56 @@
+html{
+    display: flex;
+    justify-content: center;
+}
+header {
+    color: royalblue;
+    margin: center;
+ justify-content: center;
+    text-align:center;
+    font-size: 50px;
+   
+}
+body{
+    background-image: url(../img/pink\ building.jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+a{
+    font-size: 18px;
+    margin:5em;
+    padding:1px;
+    text-align: center;
+    align-content: space-between;
+    width: 80px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+ background-color: pink;
+}
+.iframe-container{
+    margin: 50px;
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+
+}
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 30%;
+    height: 30%;
+}
+form{
+    display: grid;
+    margin: 100px;
+    float:right;
+    width: 20%;
+}
+/*video{
+    margin:200px;
+    float:right;
+    width:30%;
+}*/
