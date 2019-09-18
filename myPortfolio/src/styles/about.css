@@ -1,0 +1,7 @@
+html{
+    display: grid;
+
+}
+header{
+ justify-content: center;
+}

@@ -13,18 +13,21 @@ text-align: center;
 }
 
 body{
+    
     background-image: url(../img/tri.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0%;
     padding: 0%;
 }
+.text{
+    font-size:20px;
+}
 li{
     width: 250px;
 }
 
 #body > ul {
-    display flex;
     float: left;
     margin: 0 auto;
     padding: 24px 20px 20px;
@@ -36,7 +39,6 @@ ul {
 }
 
 #body > ul li {
-    display: flex;
     float: center;
     margin: 0 10px 20px;
     padding: 0;
@@ -45,7 +47,6 @@ ul {
     transition: 0.5s ease-in-out;
 }
 #body > ul li span{
-    display: flex;
     font-size: 20px;
     font-weight: normal;
     margin: 0;
@@ -57,4 +58,67 @@ ul {
 img{
     height: 200px;
     width: 300px;
+}
+.longhair{
+    grid-area: long;
+
+}
+.shorthair{
+    grid-area: short;
+
+}
+.kidshair{
+    grid-area: kid;
+
+}
+
+
+
+
+@media (max-width: 1024px) {
+    body{
+        display: grid; 
+        margin: 0 auto;
+        width: 98%;
+        height: 2300px;
+    }
+    header {
+        font-size: 200px;
+    }
+    ul{
+    font-size: 40px;
+}
+.text{
+    font-size: 100px;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+ }
+@media (max-width: 1280px) {
+    html{
+        width: 1300px;
+        height: 2300px;
+    }
+    body{
+        display: grid;  
+        margin: 0 auto;
+        width: 180%;
+        height: 2300px;
+    }
+    header {
+        font-size: 200px;
+    }
+ul{
+    font-size: 40px;
+}
+.text{
+    font-size:100px;
+}
+img{
+    width: 800px;
+    height: 500px;
+}
+
 }

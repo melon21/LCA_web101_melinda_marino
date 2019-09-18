@@ -60,16 +60,24 @@ h1{
 }
 main {
   display: grid;
-  grid-template: 50% 50%;
-  grid-row: 20% 20% 20% 20%; 
+  grid-template-columns:1fr 1fr 1fr;
+
+  grid-template-areas:
+   "calender . calc"
+   ". . . "
+  ". . todo"
+  
+
+
 }
 .greeting{
   font-size: 50px;
 }
 .calender {
-  grid-area: 1/1;
+  grid-area: calender;
   text-align: center;
   max-width: max-content;
+  max-height: 180px;
   margin: 20px;
   padding: 1.5em;
   background-color: #fff;
@@ -142,14 +150,9 @@ Style
 }
 
 
-
-
-*{
-  box-sizing: border-box;
-}
-
 .container{
-  grid-area: 6/6;
+  grid-area: calc;
+  padding-bottom: 100px;
   display:flex;
   flex-wrap: wrap;
   flex: 0 1 60%;
@@ -208,11 +211,8 @@ Style
 }
 
 
-.header{
-  grid-area: 5/1;
-}
-#myUL{
-  grid-area: 6/1;
+.todo{
+  grid-area: todo;
 }
 ul {
   margin:0;
@@ -319,4 +319,35 @@ input {
 
 .addBtn:hover {
   background-color: #bbb;
+}
+@media (max-width: 1024px) { 
+  html{
+    display:grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "calender"
+    ". todo ."
+    ". calc .";
+  }
+ 
+  body{
+    width: 1024px;
+    height: 1800px;
+    background-size: 300%;
+  }
+  h1{
+    font-size: 150px;
+  }
+ .calender{
+   float: right;
+
+ }
+ .container{
+  
+ }
+
+}
+@media (max-width: 1280px) {
+
 }
