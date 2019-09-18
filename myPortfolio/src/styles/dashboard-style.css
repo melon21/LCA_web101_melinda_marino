@@ -321,33 +321,62 @@ input {
   background-color: #bbb;
 }
 @media (max-width: 1024px) { 
-  html{
-    display:grid;
-    justify-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "calender"
-    ". todo ."
-    ". calc .";
-  }
- 
-  body{
+ body{
+  
     width: 1024px;
     height: 1800px;
     background-size: 300%;
+  }
+  main{
+    display:grid;
+    justify-items: center;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas: 
+    "calender calender calender"
+    ". calc ."
+    ". todo .";
+    
   }
   h1{
     font-size: 150px;
   }
  .calender{
-   float: right;
 
  }
+
  .container{
   
  }
 
 }
 @media (max-width: 1280px) {
+  body{
+  
+    width: 1024px;
+    height: 1800px;
+    background-size: 300%;
+  }
+  main{
+    display:grid;
+    justify-items: center;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas: 
+    "calender calender calender"
+    ". calc ."
+    ". todo .";
+    
+  }
+  h1{
+    font-size: 150px;
+  }
+ .calender{
+ 
+
+
+ }
+ .container{
+  
+ }
+
 
 }
