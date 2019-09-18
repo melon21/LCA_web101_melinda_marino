@@ -1,7 +1,74 @@
 html{
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    text-align: center;
+    grid-template-areas: 
+    "top"
+   ". p1 p2 p3";
 
 }
 header{
- justify-content: center;
+ text-align: center;
+}
+body{
+    background-image: url(../img/yellow\ building.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top{
+  grid-area: top;
+  border: 2px solid black;
+}
+.p1{
+    grid-area: "p1";
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+  padding: 20px;
+  border: 2px solid lightgrey;
+}
+.p2{
+    grid-area: "p2";
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+  padding: 20px;
+  border: 2px solid lightgrey;
+}
+.p3{
+    grid-area: "p3";
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+  padding: 20px;
+  border: 2px solid lightgrey;
+}
+@media (max-width: 1024px) {
+   
+   main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    grid-template-areas: 
+    "p1" 
+     "p2"  
+     "p3";;
+    margin: 20px;}
+    .top{
+      padding: 40px;
+    }
+}
+
+@media (max-width: 1280px) {
+   main{ display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    grid-template-areas: 
+    "p1" 
+     "p2"  
+     "p3";
+    margin: center;
+    
+}
 }
