@@ -4,3 +4,34 @@ header{
     font-size: 30px;
     font-style: underline;
 }
+body{
+    background-image: url(../img/white\ lines.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    justify-content: left;
+    grid-template-areas: 
+}
+body  h2{
+    text-decoration: underline;
+}
+.name{
+    margin: 70px;
+    margin-right: 10px;
+    border: 2px solid black;
+}
+.company{
+    margin: 70px;
+    margin-right: 10px;
+    border: 2px solid black;
+}
+.phone{
+    margin: 70px;
+    margin-right: 10px;
+    border: 2px solid black;
+}
+.email{
+    margin: 70px;
+    margin-right: 10px;
+    border: 2px solid black;
+}
