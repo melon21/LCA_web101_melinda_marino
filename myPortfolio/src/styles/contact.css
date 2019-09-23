@@ -35,3 +35,30 @@ body  h2{
     margin-right: 10px;
     border: 2px solid black;
 }
+.message{
+    {
+        position:absolute;
+        min-width:22%;
+        height 20%;
+        top:0%;
+        right:0%;
+        z-index:10;
+        background-color:#CCC;
+        border: 1px solid grey;
+        
+        }
+}
+
+
+@media (max-width: 1024px) {
+    body{
+        justify-content: center;
+        background-size: 200%;
+    }
+}
+@media (max-width: 1280px) {
+body{
+    justify-content: center;
+    background-size: 140%;
+}
+}
