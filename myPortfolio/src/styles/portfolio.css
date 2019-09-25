@@ -13,13 +13,13 @@ header {
 body{
     background-image: url(../img/pink\ building.jfif);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     
 }
 a{
     font-size: 18px;
-    margin:5em;
-    padding:1px;
+    margin:6em;
+    padding:-8px;
     text-align: center;
     align-content: space-between;
     width: 80px;
