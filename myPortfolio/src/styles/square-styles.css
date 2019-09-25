@@ -1,0 +1,164 @@
+body{
+    display:grid;
+    grid-template-columns: 50%, 50%;
+    text-align: center;
+    margin: auto;
+  width: 10%;
+}
+
+
+.one{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid red;
+    transition: 2s linear; 
+}
+.one:hover{
+transform: translateX(-600px) rotate(360deg);
+width: 25px;
+height: 25px;
+
+}
+.two{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid orange;
+    transition: 2s linear;
+}
+.two:hover{
+    transform:translateX(600px) rotate(360deg);
+    width: 100px;
+    height: 100px;
+
+    }
+.three{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid pink;
+    transition: 2s linear;
+}
+.three:hover{
+    transform:translateX(-600px) rotate(360deg);
+    width: 25px;
+    height: 25px;
+  
+    }
+.four{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid yellow;
+    transition: 2s linear;
+}
+.four:hover{
+    transform:translateX(600px) rotate(360deg);
+    width: 100px;
+    height: 100px;
+
+    }
+.five{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid lightgreen;
+    transition: 2s linear;
+}
+.five:hover{
+    transform:translateX(-600px) rotate(360deg);
+    width: 25px;
+    height: 25px;
+  
+    }
+.six{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid green;
+    transition: 2s linear;
+}
+.six:hover{
+    transform:translateX(600px) rotate(360deg);
+    width: 100px;
+    height: 100px;
+   
+    }
+.seven{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid lightseagreen;
+    transition: 2s linear;
+}
+.seven:hover{
+    transform:translateX(-600px) rotate(360deg);
+    width: 25px;
+    height: 25px;
+   
+    }
+.eight{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid blue;
+    transition: 2s linear;
+}
+.eight:hover{
+    transform:translateX(600px) rotate(360deg);
+    width: 100px;
+    height: 100px;
+  
+    }
+.nine{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid violet;
+    transition: 2s linear;
+}
+.nine:hover{
+    transform:translateX(-600px) rotate(360deg);
+    width: 25px;
+    height: 25px;
+ 
+    }
+.ten{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid purple;
+    transition: 2s linear;
+}
+.ten:hover{
+    transform:translateX(600px) rotate(360deg);
+    width: 100px;
+    height: 100px;
+   
+    }
+.eleven{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid lightgrey;
+    transition: 2s linear;
+}
+.eleven:hover{
+    transform:translateX(-600px) rotate(360deg);
+    width: 25px;
+    height: 25px;
+ 
+    }
+.twelve{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid grey;
+    transition: 2s linear;
+}
+.twelve:hover{
+    transform:translateX(600px) rotate(360deg);
+    width: 100px;
+    height: 100px;
+    }
