@@ -85,5 +85,3 @@ function HumanPlayer(board) {
       .forEach(el => el.removeEventListener('click', handleTurnTaken));
   }
 }
-dir(document.getElementById('eventClick'));
-
