@@ -86,8 +86,10 @@
          <div class="todo">
         <div id="myDIV" class="header">
           <h2>My To Do List</h2>
-          <input type="text" id="myInput" placeholder="Title...">
-          <span onclick="newElement()" class="addBtn">Add</span>
+          <form id="newItemForm">
+              <input type="text" id="itemField" placeholder="Item" />
+              <input type="submit" id="add" value="add" />
+        </form>
         </div>
 
         <ul id="myUL">
@@ -98,11 +100,13 @@
           <li>Read a book</li>
           <li>Organize office</li>
         </ul>
-        </div>
-        </div>
-        <Div class="button">Find Tour Location</Div>
+      </div>
+        <Div class="loca">
+          <p class="onclick"</p>
+          </Div>
         </main>
-        <script src="jquery/jquery-3.4.1.js"></script>
-      <script src="js/todo.js"></script>
+        <script src="../src/scripts/geolocate.js"></script>
+        <script src="scripts/jquery-3.4.1.js"></script>
+      <script src="./scripts/todo.js"></script>
     </body>
 </html>
