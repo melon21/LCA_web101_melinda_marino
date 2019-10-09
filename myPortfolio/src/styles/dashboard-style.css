@@ -65,7 +65,7 @@ main {
   grid-template-areas:
    "calender . calc"
    ". . . "
-  ". . todo"
+  "hanoi . todo"
   
 
 
@@ -319,6 +319,64 @@ input {
 .addBtn:hover {
   background-color: #bbb;
 }
+[data-row] {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 34px;
+  margin: 25px;
+  border: 1px solid lightgray;
+}
+
+#hanoi{
+  grid-area: hanoi;
+}
+#hanoi [data-row].red {
+  background-color: #f6c5c5;
+}
+
+#hanoi [data-row].yellow {
+  background-color: #ffffa9;
+}
+
+#hanoi [data-row].green {
+  background-color: #baf6ba;
+}
+
+#hanoi [data-row].blue {
+  background-color: aliceblue;
+}
+
+#hanoi [data-color] {
+  width: 25px;
+  float: left;
+}
+
+#hanoi [data-color="blue"] {
+  height: 33px;
+  background-color: blue;
+}
+
+#hanoi [data-color="green"] {
+  height: 33px;
+  background-color: green;
+}
+
+#hanoi [data-color="red"] {
+  height: 33px;
+  background-color: red;
+}
+
+#hanoi [data-color="yellow"] {
+  height: 33px;
+  background-color: yellow;
+}
+
+#hanoi #announce-game-won {
+  font-size: 50px;
+  text-align: center;
+}
+
 @media (max-width: 1024px) { 
  body{
   
@@ -339,10 +397,6 @@ input {
   h1{
     font-size: 150px;
   }
-.button 2{
-  
-}
-
 }
 @media (max-width: 1280px) {
   body{
@@ -364,14 +418,4 @@ input {
   h1{
     font-size: 150px;
   }
- .calender{
- 
-
-
- }
- .container{
-  
- }
-
-
 }
