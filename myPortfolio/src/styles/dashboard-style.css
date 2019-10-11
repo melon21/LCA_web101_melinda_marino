@@ -65,7 +65,7 @@ main {
   grid-template-areas:
    "calender . calc"
    ". . . "
-  "hanoi . todo"
+  "hanoi board todo"
   
 
 
@@ -332,19 +332,19 @@ input {
   grid-area: hanoi;
 }
 #hanoi [data-row].red {
-  background-color: #f6c5c5;
+  background-color: lightskyblue;
 }
 
 #hanoi [data-row].yellow {
-  background-color: #ffffa9;
+  background-color: pink;
 }
 
 #hanoi [data-row].green {
-  background-color: #baf6ba;
+  background-color: lightcoral;
 }
 
 #hanoi [data-row].blue {
-  background-color: aliceblue;
+  background-color: white;
 }
 
 #hanoi [data-color] {
@@ -359,23 +359,64 @@ input {
 
 #hanoi [data-color="green"] {
   height: 33px;
-  background-color: green;
+  background-color: #ff007f;
 }
 
 #hanoi [data-color="red"] {
   height: 33px;
-  background-color: red;
+  background-color: orangered;
 }
 
 #hanoi [data-color="yellow"] {
   height: 33px;
-  background-color: yellow;
+  background-color: lightgrey;
 }
 
 #hanoi #announce-game-won {
   font-size: 50px;
   text-align: center;
 }
+#board {
+  grid-area: board;
+  display: flex;
+}
+.column {
+  width: 50px;
+  height: 300px;
+  border-right: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.disc {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
+.red {
+  background-color: rgb(236, 88, 157);
+
+}
+
+.black {
+  background-color: grey;
+ 
+}
+
+.row {
+  clear: both;
+}
+
+#announce-winner {
+  clear: both;
+  font-size: 50px;
+}
+
+
+
+
 
 @media (max-width: 1024px) { 
  body{
@@ -387,11 +428,13 @@ input {
   main{
     display:grid;
     justify-items: center;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
     "calender calender calender"
     ". calc ."
-    ". todo .";
+    ". todo ."
+    ". hanoi ."
+    ". board .";
     
   }
   h1{
@@ -412,7 +455,9 @@ input {
     grid-template-areas: 
     "calender calender calender"
     ". calc ."
-    ". todo .";
+    ". todo ."
+    ". hanoi ."
+    ". board .";
     
   }
   h1{

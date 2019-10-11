@@ -4,8 +4,9 @@ h1{
     background cover;
 }
 body{
-    grid-auto-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "center center center" 
     "1 2 3"
 }
 .container1{
